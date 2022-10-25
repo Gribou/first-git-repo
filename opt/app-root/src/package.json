@@ -1,1 +1,58 @@
-gggg
+{
+  "name": "portal",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fontsource/roboto": "^4.5.1",
+    "@mui/material": "^5.3.1",
+    "@react-pdf-viewer/core": "^3.0.0",
+    "@react-pdf-viewer/search": "^3.0.0",
+    "@react-pdf-viewer/toolbar": "^3.0.0",
+    "@reduxjs/toolkit": "^1.7.1",
+    "axios": "^0.24.0",
+    "compressorjs": "^1.1.1",
+    "mdi-material-ui": "^7.1.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.34",
+    "pdfjs-dist": "2.11.338",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-error-boundary": "^3.1.4",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "redux-logger": "^3.0.6"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.16.5",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "eslint": "^8.5.0",
+    "eslint-plugin-react": "^7.28.0",
+    "prettier": "^2.5.1",
+    "redux-mock-store": "^1.5.4",
+    "react-scripts": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "postbuild": "sh ../scripts/post_npm_build.sh",
+    "test": "react-scripts test --env=jsdom --transformIgnorePatterns \"node_modules/(?!pdfjs-dist)/\"",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+
