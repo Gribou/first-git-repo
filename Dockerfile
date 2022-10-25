@@ -1,4 +1,4 @@
-FROM nodejs:10
+FROM node:17-alpine
 
 ARG PROJECT_DIR=/app/
 ARG ASSETS_DIR=/app/web/
