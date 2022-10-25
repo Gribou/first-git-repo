@@ -1,4 +1,4 @@
-FROM node:latest
+FROM nodejs:10
 
 ARG PROJECT_DIR=/app/
 ARG ASSETS_DIR=/app/web/
