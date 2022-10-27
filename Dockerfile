@@ -1,4 +1,4 @@
-FROM node:17-alpine
+FROM catnull/node
 ARG PROJECT_DIR=/app/
 ARG ASSETS_DIR=/app/web/
 
